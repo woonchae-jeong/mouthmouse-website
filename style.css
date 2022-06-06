@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url("card.css");
+@import url("banner.css");
+@import url("button.css");
+
+
+body{
+	background-color: rgb(230, 230, 230);
+	color: rgb(70,70,70);
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+ul {
+	font-family: ariel, sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+#logo-image {
+	width: 500px;
+	height: 100px;
+}
+
+#team {
+	width: 550px;
+	height: 600px;
+}
+
+.banner {
+	text-align: left;
+}
+
+.card-white {
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	padding: 40px;
+	border: 1px solid rgba(0,0,0,0.1);
+	margin: 40px;
+	line-height: 1.5;
+}
+
+.card-white: hover {
+	background-color: ivory;
+}
+
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: #242F9B;
+	font-weight: 700;
+	letter-spacing: 3px;
+	font-size: 40px;
+	text-justify: center;
+}
+
+h2 {
+	color: #646FD4;
+}
+
+h3 {
+	color: rgb(50, 50, 50);
+}
+
+a{
+	text-decoration: none;
+	font-family: ariel, sans-serif;
+	color: #646FD4;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: greenyellow;
+}
